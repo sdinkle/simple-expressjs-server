@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "tbd"
+    "url": "https://github.com/sdinkle/simple-expressjs-server.git"
   },
   "author": "Steve Dinkle",
   "license": "ISC",
