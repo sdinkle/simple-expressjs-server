@@ -1,6 +1,6 @@
 # Simple Express.js Server
-This is a simple Express.js server that receives requests and process them. Demonstrates basic Express.js request handling and routing. Makes use of the npm packages `express` and `nodemon`.
+This is a simple Express.js server that receives requests and process them. Demonstrates basic Express.js request handling and routing. Makes use of the npm packages `express` (installed as a production dependency using `npm install express` or `npm install --save-prod express` or `npm install -P express`) and `nodemon` (installed as a developer dependency using `npm install --save-dev nodemon` or `npm install -D nodemon`).
 
-Extract files to a directory, then run `npm install` to install the necessary dependencies. Run the app using `npm start`, then naviagte to `localhost:3000` to view the app. You can toggle comments on middleware functions and save your changes; nodemon should automatically restart the server once changes are detected. Routed urls are `localhost:3000` and `localhost:3000/users` (second part of assignment only).
+Extract files to a directory, then run `npm install` to install the necessary dependencies (or `npm install --production` to only install the `express` production dependency; useful if you already have `nodemon` installed globally, for example). Run the app using `npm start`, then navigate to `localhost:3000` to view the app. You can toggle comments on middleware functions and save your changes; `nodemon` should automatically restart the server once changes are detected. Routed URLs are `localhost:3000` and `localhost:3000/users` (second part of assignment only).
 
 Part of the [NodeJS - The Complete Guide](https://www.udemy.com/course/nodejs-the-complete-guide/) series.
